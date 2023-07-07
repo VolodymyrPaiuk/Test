@@ -1,0 +1,33 @@
+import sqlite3
+import os
+
+class Database():
+    def __init__(self):
+        self.parent_directory = os.path.dirname(os.getcwd()) #шлях де створювати бази даних
+
+class db_harnesses(Database):
+    def Create_db_harnesses(self):
+        print("work")
+        print(self.parent_directory)
+    def Record_db_harnesses(self):
+        pass
+    def Clear_db_harnesses(self):
+        pass
+
+
+    def Create_db_Virtual(self):
+        pass
+    def Create_db_Internal(self):
+        pass
+    def Create_db_Basic_Module_L3(self):
+        pass
+    def Create_db_Basic_Module_L4(self):
+        pass
+
+
+
+test_2 = db_harnesses()
+test_2.Create_db_harnesses()
+
+
+
